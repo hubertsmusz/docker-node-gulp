@@ -1,11 +1,11 @@
 #!/bin/sh
 
-if [ -f ./bower.json ]; then
-    bower install --allow-root
-fi
+#if [ -f ./bower.json ]; then
+#    bower install --allow-root
+#fi
 
 # Increase npm install performance
-npm set progress=false
+#npm set progress=false
+#npm install
 
-npm install
 gulp $1
